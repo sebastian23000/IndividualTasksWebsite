@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="../CSS/style_default.css">
+
+		<title>HTML Basics - Exercise 1</title>
+	</head>
+
+	<body>
+		<a class="indlink" href="../index.html">Index</a>
+
+		<h1>Exercises 1: Text Formatting and page content</h1>
+		
+		<h2 id="banan">Task 1: Folder Structure</h2>
+
+		<p><b>
+			Create a proper folder structure for your website. Save all individual tasks in this folder.
+		</b></p>
+		<blockquote><p>
+			It is important to create a proper folder structure for your website. It facilitates organization, making it simple to locate what you need. A well-designed structure saves time and effort when modifications or additions are needed. It's similar to having a map for your website; everything has a location, which facilitates work and problem-solving.
+		</p></blockquote>
+
+		<ul>
+			<li>
+				<b>rootfolder</b>
+				<ul>
+					<li>index.html</li>
+
+					<li>
+						<b>exercises</b>
+						<ul>
+							<li>exercise1.html</li>
+							<li>exercise2.html</li>
+							<li>exercise3.html</li>
+							<li>exercise4.html</li>
+							<li>exercise5.html</li>
+						</ul>
+					</li>
+
+					<li>
+						<b>styles</b>
+						<ul>
+							<li>style.css</li>
+						</ul>
+					</li>
+
+					<li>
+						<b>images</b>
+						<ul>
+							<li>image1.png</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h2 id="tomato">Task 2: Set up your initial page</h2>
+
+		<p><b>Create index.html in the root folder.</b></p>
+
+		<blockquote><p>
+			index.html is the main file of a website. When you visit a website, your browser looks for index.html first. It's the home page that provides the initial content and structure for the entire site. This file typically includes important information like the site's title, main headings, and often serves as a gateway to other pages. It guides visitors to the core content. A well-structured main page such as the index.html leads to to a user-friendly and well-organized web experience.
+		</p></blockquote>
+
+		<ul>
+			<li>
+				Content for the index.html page
+				<ul>
+					<li>
+						Set the title as My individual Tasks - FirstName LastName .
+					</li>
+				</ul>
+
+				<ul>
+					<li>
+						In the body section of your HTML document, include the unordered lists as below:
+
+						<ul>
+							<li>Exercise 1</li>
+							<li>Exercise 2</li>
+							<li>Exercise 3</li>
+							<li>Exercise 4</li>
+							<li>Exercise 5</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+		<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+ &lt;head&gt;
+  &lt;title&gt;Your Title&lt;/title&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  Your content. 
+ &lt;/body&gt;
+&lt;/html&gt;
+		</code></pre>
+
+		<blockquote><p>
+			<b>head:</b> The HTML head is the contents of the &lt;head&gt;....&lt;/head&gt; element. The content of the head element is not displayed to the user. It contains metadata about the document such as the author information, the title of the page, the metadata element such as the document's character encoding, custom icon to your page, link to the CSS and JavaScript file that are applied to the pages, primary language of the document, Your task is to include a proper title, the author information,set the character set as utf-8 and a brief description that is used on a search engine result pages.For this task, please consider reading this document: <a href="https://www.linux.fi/wiki/Toiminnot:Satunnainen_sivu" target="_blank">What's in the head?</a>
+		</p></blockquote>
+
+		<blockquote><p>
+			<b>body:</b> The HTML &lt;body&gt; element consists of the visible content of a webpage. It is like a container for text, images, links, lists, and other elements that shape the presentation of your website. The content within the &lt;body&gt; tag is what users perceive and engage with, defining the essential components of a webpage.
+		</p></blockquote>
+
+		<h2 id="jultorta">Task 3: Create exercise1.html</h2>
+
+		<ul>
+			<li>
+				Copy the initial segments of the starter code from the <b>index.html</b> file.
+			</li>
+			<li>
+				Update the page title to "HTML Basics - Exercise 1".
+			</li>
+			<li>
+				Choose any website and replicate its content in an HTML page (exercise1.html), focusing on correctly using elements and tags in HTML. Don't be concerned about formatting, backgrounds, or colors.Concentrate on creating elements accurately. Follow the guidelines below:
+				<ul>
+					<li>
+						The top level heading of the page can be heading 1 <a href="#banan">HTML Text Fundamentals</a>
+					</li>
+					<li>
+						Put text pieces from the website in the &lt;p&gt; tag
+					</li>
+					<li>
+						Apply some text formatting such as <b>bold</b>, <i>italic</i>, <u>underline</u> to some part of <del>your</del> text.
+					</li>
+					<li>
+						Add a paragraph that has an image that is aligned to the right side of the page. <a href="#tomato">Images in HTML</a>
+					</li>
+					<li>
+						Validate your html document by using <a href="#jultorta">Markup Validation Service</a>
+					</li>
+					<li>
+						Fix errors and warnings if there are any.
+					</li>
+				</ul>
+			</li>
+			<li>
+				Update your <b>index.html</b> that is exercise 1 in index.html should link to ths file (exercise1.html) <a href="/nowhere" target="_blank">Guide:Creating hyperlinks</a>
+			</li>
+		</ul>
+
+		<img 
+			src="../Images/bgimagethumbnail.gif" 
+			alt="Thumbnail of a background image." 
+			title="Move your cursor out of the way!" 
+			style="width:20%; float:right; margin-right: 5%;">
+	</body>
+</html>
